@@ -8,7 +8,7 @@ welcome to my place
 
 
 
-**program, music, fly, travel, _etc_...**
+**program, music, fly, travel, _etc_...
 
 
 ```
