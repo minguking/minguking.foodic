@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB62444247DEE6800323AB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DB62443247DEE6800323AB8 /* GoogleService-Info.plist */; };
+		3DD33E72246993B80099C608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E71246993B80099C608 /* AppDelegate.swift */; };
+		3DD33E74246993B80099C608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E73246993B80099C608 /* SceneDelegate.swift */; };
+		3DD33E76246993B80099C608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E75246993B80099C608 /* ViewController.swift */; };
+		3DD33E79246993B80099C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E77246993B80099C608 /* Main.storyboard */; };
+		3DD33E7B246993BA0099C608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E7A246993BA0099C608 /* Assets.xcassets */; };
+		3DD33E7E246993BA0099C608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E7C246993BA0099C608 /* LaunchScreen.storyboard */; };
+		3DD33E86246995820099C608 /* FirstView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E85246995820099C608 /* FirstView.storyboard */; };
+		3DD33E8A246996100099C608 /* SecondView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E89246996100099C608 /* SecondView.storyboard */; };
+		3DD33E8C246996F30099C608 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E8B246996F30099C608 /* FirstViewController.swift */; };
+		3DD33E8E246998E80099C608 /* ThirdView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E8D246998E80099C608 /* ThirdView.storyboard */; };
+		3DD33E90246998F10099C608 /* FourthView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E8F246998F10099C608 /* FourthView.storyboard */; };
+		3DD33E92246998F70099C608 /* FifthView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33E91246998F70099C608 /* FifthView.storyboard */; };
+		3DD33E942469992C0099C608 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E932469992C0099C608 /* SecondViewController.swift */; };
+		3DD33E96246999340099C608 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E95246999340099C608 /* ThirdViewController.swift */; };
+		3DD33E982469993B0099C608 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E972469993B0099C608 /* FourthViewController.swift */; };
+		3DD33E9A246999400099C608 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E99246999400099C608 /* FifthViewController.swift */; };
+		3DD33E9E24699C840099C608 /* WayOfCook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E9D24699C840099C608 /* WayOfCook.swift */; };
+		3DD33EA02469AB8D0099C608 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33E9F2469AB8D0099C608 /* Shared.swift */; };
+		3DD33EA2246A3D510099C608 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EA1246A3D510099C608 /* First.swift */; };
+		3DD33EA5246A3F100099C608 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EA3246A3F100099C608 /* FirstCollectionViewCell.swift */; };
+		3DD33EA6246A3F100099C608 /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EA4246A3F100099C608 /* FirstCollectionViewCell.xib */; };
+		3DD33EAA246A63280099C608 /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EA9246A63270099C608 /* FirstDetailViewController.swift */; };
+		3DD33EAC246A694F0099C608 /* FirstDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EAB246A694F0099C608 /* FirstDetailCollectionViewCell.swift */; };
+		3DD33EAE246A8B2F0099C608 /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EAD246A8B2F0099C608 /* SecondDetailViewController.swift */; };
+		3DD33EB0246A8DB30099C608 /* SecondDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EAF246A8DB30099C608 /* SecondDetailCollectionViewCell.swift */; };
+		3DD33EB2246AC00A0099C608 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EB1246AC00A0099C608 /* Second.swift */; };
+		3DD33EBB246AC7010099C608 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EB9246AC7010099C608 /* SecondCollectionViewCell.swift */; };
+		3DD33EBC246AC7010099C608 /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EBA246AC7010099C608 /* SecondCollectionViewCell.xib */; };
+		3DD33EBE246BD3400099C608 /* AllFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EBD246BD3400099C608 /* AllFood.swift */; };
+		3DD33EC1246BD5A10099C608 /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EBF246BD5A10099C608 /* ThirdTableViewCell.swift */; };
+		3DD33EC2246BD5A10099C608 /* ThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EC0246BD5A10099C608 /* ThirdTableViewCell.xib */; };
+		3DD33EE8246D39CA0099C608 /* FirstCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EE6246D39CA0099C608 /* FirstCollectionViewCell2.swift */; };
+		3DD33EE9246D39CA0099C608 /* FirstCollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EE7246D39CA0099C608 /* FirstCollectionViewCell2.xib */; };
+		3DD33EEC246E5C930099C608 /* SecondCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EEA246E5C930099C608 /* SecondCollectionViewCell2.swift */; };
+		3DD33EED246E5C930099C608 /* SecondCollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EEB246E5C930099C608 /* SecondCollectionViewCell2.xib */; };
+		3DD33EEF246E70B40099C608 /* FoodView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD33EEE246E70B40099C608 /* FoodView.storyboard */; };
+		3DD33EF1246E70D90099C608 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD33EF0246E70D90099C608 /* FoodViewController.swift */; };
+		7EC577BE67FCBB4B58A9AA8B /* Pods_practiceMakesPerfecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C8222E49B76B4EBCFFB4AD /* Pods_practiceMakesPerfecto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DB62443247DEE6800323AB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DD33E6E246993B80099C608 /* foodic_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodic_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD33E71246993B80099C608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DD33E73246993B80099C608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DD33E75246993B80099C608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD33E78246993B80099C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD33E7A246993BA0099C608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD33E7D246993BA0099C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD33E7F246993BA0099C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD33E85246995820099C608 /* FirstView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstView.storyboard; sourceTree = "<group>"; };
+		3DD33E89246996100099C608 /* SecondView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondView.storyboard; sourceTree = "<group>"; };
+		3DD33E8B246996F30099C608 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3DD33E8D246998E80099C608 /* ThirdView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdView.storyboard; sourceTree = "<group>"; };
+		3DD33E8F246998F10099C608 /* FourthView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FourthView.storyboard; sourceTree = "<group>"; };
+		3DD33E91246998F70099C608 /* FifthView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FifthView.storyboard; sourceTree = "<group>"; };
+		3DD33E932469992C0099C608 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3DD33E95246999340099C608 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3DD33E972469993B0099C608 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		3DD33E99246999400099C608 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		3DD33E9D24699C840099C608 /* WayOfCook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayOfCook.swift; sourceTree = "<group>"; };
+		3DD33E9F2469AB8D0099C608 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		3DD33EA1246A3D510099C608 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		3DD33EA3246A3F100099C608 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DD33EA4246A3F100099C608 /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DD33EA9246A63270099C608 /* FirstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
+		3DD33EAB246A694F0099C608 /* FirstDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DD33EAD246A8B2F0099C608 /* SecondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
+		3DD33EAF246A8DB30099C608 /* SecondDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DD33EB1246AC00A0099C608 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		3DD33EB9246AC7010099C608 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DD33EBA246AC7010099C608 /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DD33EBD246BD3400099C608 /* AllFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFood.swift; sourceTree = "<group>"; };
+		3DD33EBF246BD5A10099C608 /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdTableViewCell.swift; path = practiceMakesPerfecto/Nibs/ThirdTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3DD33EC0246BD5A10099C608 /* ThirdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ThirdTableViewCell.xib; path = practiceMakesPerfecto/Nibs/ThirdTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		3DD33EE6246D39CA0099C608 /* FirstCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstCollectionViewCell2.swift; path = practiceMakesPerfecto/Models/FirstCollectionViewCell2.swift; sourceTree = SOURCE_ROOT; };
+		3DD33EE7246D39CA0099C608 /* FirstCollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FirstCollectionViewCell2.xib; path = practiceMakesPerfecto/Models/FirstCollectionViewCell2.xib; sourceTree = SOURCE_ROOT; };
+		3DD33EEA246E5C930099C608 /* SecondCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell2.swift; sourceTree = "<group>"; };
+		3DD33EEB246E5C930099C608 /* SecondCollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewCell2.xib; sourceTree = "<group>"; };
+		3DD33EEE246E70B40099C608 /* FoodView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodView.storyboard; sourceTree = "<group>"; };
+		3DD33EF0246E70D90099C608 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		49F8160F5ED3B00E7B3D896C /* Pods-practiceMakesPerfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceMakesPerfecto.release.xcconfig"; path = "Target Support Files/Pods-practiceMakesPerfecto/Pods-practiceMakesPerfecto.release.xcconfig"; sourceTree = "<group>"; };
+		95C8222E49B76B4EBCFFB4AD /* Pods_practiceMakesPerfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practiceMakesPerfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EE77239859A3E380B8C13D /* Pods-practiceMakesPerfecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceMakesPerfecto.debug.xcconfig"; path = "Target Support Files/Pods-practiceMakesPerfecto/Pods-practiceMakesPerfecto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD33E6B246993B80099C608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC577BE67FCBB4B58A9AA8B /* Pods_practiceMakesPerfecto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F3E65ACB229F8884BD3CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95C8222E49B76B4EBCFFB4AD /* Pods_practiceMakesPerfecto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD33E65246993B80099C608 = {
+			isa = PBXGroup;
+			children = (
+				3DD33E70246993B80099C608 /* practiceMakesPerfecto */,
+				3DD33E6F246993B80099C608 /* Products */,
+				BF001AE1966A325044A31BF1 /* Pods */,
+				05F3E65ACB229F8884BD3CEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD33E6F246993B80099C608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33E6E246993B80099C608 /* foodic_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD33E70246993B80099C608 /* practiceMakesPerfecto */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33E71246993B80099C608 /* AppDelegate.swift */,
+				3DD33E73246993B80099C608 /* SceneDelegate.swift */,
+				3DD33E9C24699C780099C608 /* Models */,
+				3DD33E9B246999450099C608 /* Controllers */,
+				3DD33E88246995DD0099C608 /* Views */,
+				3DD33EC3246BDFFD0099C608 /* Nibs */,
+				3DD33E7A246993BA0099C608 /* Assets.xcassets */,
+				3DD33E7C246993BA0099C608 /* LaunchScreen.storyboard */,
+				3DB62443247DEE6800323AB8 /* GoogleService-Info.plist */,
+				3DD33E7F246993BA0099C608 /* Info.plist */,
+			);
+			path = practiceMakesPerfecto;
+			sourceTree = "<group>";
+		};
+		3DD33E88246995DD0099C608 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33E77246993B80099C608 /* Main.storyboard */,
+				3DD33E85246995820099C608 /* FirstView.storyboard */,
+				3DD33E89246996100099C608 /* SecondView.storyboard */,
+				3DD33E8D246998E80099C608 /* ThirdView.storyboard */,
+				3DD33E8F246998F10099C608 /* FourthView.storyboard */,
+				3DD33E91246998F70099C608 /* FifthView.storyboard */,
+				3DD33EEE246E70B40099C608 /* FoodView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DD33E9B246999450099C608 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33E75246993B80099C608 /* ViewController.swift */,
+				3DD33E8B246996F30099C608 /* FirstViewController.swift */,
+				3DD33EA9246A63270099C608 /* FirstDetailViewController.swift */,
+				3DD33E932469992C0099C608 /* SecondViewController.swift */,
+				3DD33EAD246A8B2F0099C608 /* SecondDetailViewController.swift */,
+				3DD33E95246999340099C608 /* ThirdViewController.swift */,
+				3DD33E972469993B0099C608 /* FourthViewController.swift */,
+				3DD33E99246999400099C608 /* FifthViewController.swift */,
+				3DD33EF0246E70D90099C608 /* FoodViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DD33E9C24699C780099C608 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33E9D24699C840099C608 /* WayOfCook.swift */,
+				3DD33E9F2469AB8D0099C608 /* Shared.swift */,
+				3DD33EA1246A3D510099C608 /* First.swift */,
+				3DD33EB1246AC00A0099C608 /* Second.swift */,
+				3DD33EAB246A694F0099C608 /* FirstDetailCollectionViewCell.swift */,
+				3DD33EAF246A8DB30099C608 /* SecondDetailCollectionViewCell.swift */,
+				3DD33EBD246BD3400099C608 /* AllFood.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DD33EC3246BDFFD0099C608 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				3DD33EE6246D39CA0099C608 /* FirstCollectionViewCell2.swift */,
+				3DD33EE7246D39CA0099C608 /* FirstCollectionViewCell2.xib */,
+				3DD33EA3246A3F100099C608 /* FirstCollectionViewCell.swift */,
+				3DD33EA4246A3F100099C608 /* FirstCollectionViewCell.xib */,
+				3DD33EB9246AC7010099C608 /* SecondCollectionViewCell.swift */,
+				3DD33EBA246AC7010099C608 /* SecondCollectionViewCell.xib */,
+				3DD33EEA246E5C930099C608 /* SecondCollectionViewCell2.swift */,
+				3DD33EEB246E5C930099C608 /* SecondCollectionViewCell2.xib */,
+				3DD33EBF246BD5A10099C608 /* ThirdTableViewCell.swift */,
+				3DD33EC0246BD5A10099C608 /* ThirdTableViewCell.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		BF001AE1966A325044A31BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EE77239859A3E380B8C13D /* Pods-practiceMakesPerfecto.debug.xcconfig */,
+				49F8160F5ED3B00E7B3D896C /* Pods-practiceMakesPerfecto.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD33E6D246993B80099C608 /* practiceMakesPerfecto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD33E82246993BA0099C608 /* Build configuration list for PBXNativeTarget "practiceMakesPerfecto" */;
+			buildPhases = (
+				803D18502284E411C2305E9F /* [CP] Check Pods Manifest.lock */,
+				3DD33E6A246993B80099C608 /* Sources */,
+				3DD33E6B246993B80099C608 /* Frameworks */,
+				3DD33E6C246993B80099C608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practiceMakesPerfecto;
+			productName = practiceMakesPerfecto;
+			productReference = 3DD33E6E246993B80099C608 /* foodic_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD33E66246993B80099C608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kang Mingu";
+				TargetAttributes = {
+					3DD33E6D246993B80099C608 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3DD33E69246993B80099C608 /* Build configuration list for PBXProject "practiceMakesPerfecto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD33E65246993B80099C608;
+			productRefGroup = 3DD33E6F246993B80099C608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD33E6D246993B80099C608 /* practiceMakesPerfecto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD33E6C246993B80099C608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD33E7E246993BA0099C608 /* LaunchScreen.storyboard in Resources */,
+				3DD33E7B246993BA0099C608 /* Assets.xcassets in Resources */,
+				3DD33EE9246D39CA0099C608 /* FirstCollectionViewCell2.xib in Resources */,
+				3DD33E86246995820099C608 /* FirstView.storyboard in Resources */,
+				3DD33EA6246A3F100099C608 /* FirstCollectionViewCell.xib in Resources */,
+				3DD33EEF246E70B40099C608 /* FoodView.storyboard in Resources */,
+				3DD33EBC246AC7010099C608 /* SecondCollectionViewCell.xib in Resources */,
+				3DB62444247DEE6800323AB8 /* GoogleService-Info.plist in Resources */,
+				3DD33EC2246BD5A10099C608 /* ThirdTableViewCell.xib in Resources */,
+				3DD33E8E246998E80099C608 /* ThirdView.storyboard in Resources */,
+				3DD33E8A246996100099C608 /* SecondView.storyboard in Resources */,
+				3DD33EED246E5C930099C608 /* SecondCollectionViewCell2.xib in Resources */,
+				3DD33E79246993B80099C608 /* Main.storyboard in Resources */,
+				3DD33E90246998F10099C608 /* FourthView.storyboard in Resources */,
+				3DD33E92246998F70099C608 /* FifthView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		803D18502284E411C2305E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practiceMakesPerfecto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD33E6A246993B80099C608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD33EAE246A8B2F0099C608 /* SecondDetailViewController.swift in Sources */,
+				3DD33EA02469AB8D0099C608 /* Shared.swift in Sources */,
+				3DD33E9E24699C840099C608 /* WayOfCook.swift in Sources */,
+				3DD33E76246993B80099C608 /* ViewController.swift in Sources */,
+				3DD33E72246993B80099C608 /* AppDelegate.swift in Sources */,
+				3DD33EB0246A8DB30099C608 /* SecondDetailCollectionViewCell.swift in Sources */,
+				3DD33E74246993B80099C608 /* SceneDelegate.swift in Sources */,
+				3DD33EEC246E5C930099C608 /* SecondCollectionViewCell2.swift in Sources */,
+				3DD33E982469993B0099C608 /* FourthViewController.swift in Sources */,
+				3DD33EE8246D39CA0099C608 /* FirstCollectionViewCell2.swift in Sources */,
+				3DD33EAC246A694F0099C608 /* FirstDetailCollectionViewCell.swift in Sources */,
+				3DD33E9A246999400099C608 /* FifthViewController.swift in Sources */,
+				3DD33E942469992C0099C608 /* SecondViewController.swift in Sources */,
+				3DD33EB2246AC00A0099C608 /* Second.swift in Sources */,
+				3DD33EF1246E70D90099C608 /* FoodViewController.swift in Sources */,
+				3DD33E96246999340099C608 /* ThirdViewController.swift in Sources */,
+				3DD33EAA246A63280099C608 /* FirstDetailViewController.swift in Sources */,
+				3DD33EBE246BD3400099C608 /* AllFood.swift in Sources */,
+				3DD33EBB246AC7010099C608 /* SecondCollectionViewCell.swift in Sources */,
+				3DD33E8C246996F30099C608 /* FirstViewController.swift in Sources */,
+				3DD33EC1246BD5A10099C608 /* ThirdTableViewCell.swift in Sources */,
+				3DD33EA2246A3D510099C608 /* First.swift in Sources */,
+				3DD33EA5246A3F100099C608 /* FirstCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DD33E77246993B80099C608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD33E78246993B80099C608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD33E7C246993BA0099C608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD33E7D246993BA0099C608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD33E80246993BA0099C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD33E81246993BA0099C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD33E83246993BA0099C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5EE77239859A3E380B8C13D /* Pods-practiceMakesPerfecto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
+				INFOPLIST_FILE = practiceMakesPerfecto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minguking.foodic.practiceMakesPerfecto;
+				PRODUCT_NAME = foodic_Test;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD33E84246993BA0099C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F8160F5ED3B00E7B3D896C /* Pods-practiceMakesPerfecto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
+				INFOPLIST_FILE = practiceMakesPerfecto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minguking.foodic.practiceMakesPerfecto;
+				PRODUCT_NAME = foodic_Test;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD33E69246993B80099C608 /* Build configuration list for PBXProject "practiceMakesPerfecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD33E80246993BA0099C608 /* Debug */,
+				3DD33E81246993BA0099C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD33E82246993BA0099C608 /* Build configuration list for PBXNativeTarget "practiceMakesPerfecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD33E83246993BA0099C608 /* Debug */,
+				3DD33E84246993BA0099C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD33E66246993B80099C608 /* Project object */;
+}

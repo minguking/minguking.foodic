@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="va6-7Z-qjU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Third View Controller-->
+        <scene sceneID="G2h-Fc-mYA">
+            <objects>
+                <viewController id="64H-dR-kgq" customClass="ThirdViewController" customModule="practiceMakesPerfecto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GWH-HD-hGE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Byi-9r-WLi">
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Or7-P1-dG7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6g9-3Y-Tdd" firstAttribute="bottom" secondItem="Byi-9r-WLi" secondAttribute="bottom" id="KJ2-h1-JyU"/>
+                            <constraint firstItem="6g9-3Y-Tdd" firstAttribute="trailing" secondItem="Byi-9r-WLi" secondAttribute="trailing" id="LVp-TL-iKS"/>
+                            <constraint firstItem="Or7-P1-dG7" firstAttribute="top" secondItem="6g9-3Y-Tdd" secondAttribute="top" id="Pxx-Io-epI"/>
+                            <constraint firstItem="Byi-9r-WLi" firstAttribute="top" secondItem="Or7-P1-dG7" secondAttribute="bottom" id="QSC-Cr-cG9"/>
+                            <constraint firstItem="Or7-P1-dG7" firstAttribute="trailing" secondItem="6g9-3Y-Tdd" secondAttribute="trailing" id="YM7-uO-CHb"/>
+                            <constraint firstItem="Or7-P1-dG7" firstAttribute="leading" secondItem="6g9-3Y-Tdd" secondAttribute="leading" id="dzR-1V-ZUR"/>
+                            <constraint firstItem="Byi-9r-WLi" firstAttribute="leading" secondItem="6g9-3Y-Tdd" secondAttribute="leading" id="jEs-2V-yYp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6g9-3Y-Tdd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YZW-ds-8xS"/>
+                    <connections>
+                        <outlet property="searchBar" destination="Or7-P1-dG7" id="qgu-mt-Fi4"/>
+                        <outlet property="tableView" destination="Byi-9r-WLi" id="EiP-aa-myh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VIs-4M-xPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="125"/>
+        </scene>
+        <!--search-->
+        <scene sceneID="Swu-8F-l5E">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="va6-7Z-qjU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="search" image="magnifyingglass" catalog="system" id="aa1-W4-duk"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WFh-rx-m4g">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="64H-dR-kgq" kind="relationship" relationship="rootViewController" id="luH-ez-1cA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pej-ai-Oc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
